@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('Foto1.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .video-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 15px 0;
+            display: block;
+        }
+        .video-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-gallery">
+            <img src="Screenshot1.jpg" alt="Screenshot1">
+            <img src="Screenshot2.jpg" alt="Screenshot2">
+            <img src="Screenshot3.jpg" alt="Screenshot3">
+        </div>
+
+        <div class="video-links">
+            <a href="https://www.youtube.com/watch?v=5XhxR9Vs6zc" target="_blank">Video 1: Watch Now</a>
+            <a href="https://www.youtube.com/watch?v=e5AwNU3Y2es" target="_blank">Video 2: Watch Now</a>
+        </div>
+    </div>
+</body>
+</html>
