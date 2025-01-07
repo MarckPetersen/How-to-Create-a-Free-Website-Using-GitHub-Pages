@@ -22,19 +22,29 @@
         }
         .image-gallery img {
             width: 100%;
-            max-width: 300px;
+            max-width: 900px;
             margin: 10px;
             border-radius: 8px;
+            transform: scale(3);
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(3.1); /* Slight zoom effect when hovered */
         }
         .video-links a {
-            color: #fff;
+            color: #ffcc00;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 20px;
             margin: 15px 0;
             display: block;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 5px;
         }
         .video-links a:hover {
             text-decoration: underline;
+            background-color: rgba(0, 0, 0, 0.8);
         }
     </style>
 </head>
